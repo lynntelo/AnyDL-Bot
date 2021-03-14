@@ -7,7 +7,7 @@ from youtube_dl import YoutubeDL
 from opencc import OpenCC
 from config import Config
 
-CHANNEL_FORWARD_TO = -1001466248870
+CHANNEL_FORWARD_TO = -1001486198003
 
 Jebot = Client(
    "YT Downloader",
@@ -31,7 +31,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDL Bot
 
-I can download video or audio from Youtube. Made by @ImJanindu 🇱🇰
+I can download video or audio from Youtube. Made by @Didiktea 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -39,10 +39,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/androidusersmizo")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Source Code", url="https://github.com/lynntelo/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -57,7 +57,7 @@ async def help(client, message):
 
 Just send a Youtube url to download it in video or audio format!
 
-~ @Infinity_BOTs</b>""",
+~ @puituflynn""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -66,7 +66,7 @@ Just send a Youtube url to download it in video or audio format!
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Source Code", url="https://github.com/lynntelo/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -79,19 +79,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/Didiktea">Didiktea 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/puituflynn">Didiktea BOTs Support</a>
 
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @Infinity_BOTs</b>""",
+<b>~ @puituflynn</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Source Code", url="https://github.com/lynntelo/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -237,7 +237,7 @@ async def send_video(message: Message, info_dict, video_file):
                     ),
                     InlineKeyboardButton(
                         "Channel 🇱🇰",
-                        url="https://t.me/Infinity_BOTs"
+                        url="https://t.me/androidusersmizo"
                     )
                 ]
             ]
@@ -299,7 +299,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @puituflynn
 """
 )
 
