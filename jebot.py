@@ -81,7 +81,7 @@ async def about(client, message):
 
 <b>♞ Developer:</b> <a href="https://t.me/Didiktea">Didiktea 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/puituflynn">Didiktea BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/puituflynn">Mizo Android Users</a>
 
 <b>♞ Youtube:</b> <a href="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ">Youtube channel</a>
 
