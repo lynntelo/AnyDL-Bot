@@ -29,9 +29,9 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDL Bot
+               text="""<b>Hello hmelthate, kei hi youtube downloader Bot kani
 
-I can download video or audio from Youtube. Made by @Didiktea 🇱🇰
+Kei hian Youtube video leh audio ka Download thei. Siam tu @Didiktea 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -42,7 +42,7 @@ Hit help button to find out more about how to use me</b>""",
                                             "Channel", url="https://t.me/androidusersmizo")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/lynntelo/AnyDL-Bot")
+                                            "Support Group", url="https://t.me/puituflynn")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -55,9 +55,9 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b>AnyDL Bot Help!
 
-Just send a Youtube url to download it in video or audio format!
+Youtube url lo thawnla download turin kalo pe ang che video or audio format in!
 
-~ @puituflynn""",
+~ @Didiktea""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -66,7 +66,7 @@ Just send a Youtube url to download it in video or audio format!
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/lynntelo/AnyDL-Bot")
+                                            "Support Group", url="https://t.me/puituflynn")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -83,15 +83,15 @@ async def about(client, message):
 
 <b>♞ Support:</b> <a href="https://t.me/puituflynn">Didiktea BOTs Support</a>
 
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>♞ Youtube:</b> <a href="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ">Youtube channel</a>
 
-<b>~ @puituflynn</b>""",
+<b>~ @Didiktea</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/lynntelo/AnyDL-Bot")
+                                            "Support Group", url="https://t.me/puituflynn")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
