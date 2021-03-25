@@ -33,7 +33,7 @@ async def start(client, message):
 
 Kei hian Youtube video leh audio ka Download thei. Siam tu @Didiktea 🇱🇰
 
-Hit help button to find out more about how to use me</b>""",   
+Help button khu hmet la min hman dantur i hre thei ang</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
